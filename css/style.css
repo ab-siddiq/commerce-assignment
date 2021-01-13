@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', cursive;
+}
+h1{font-family: 'Bebus Neue'; font-weight: bolder;}
+header {
+    background-color: #FFF9F4
+}
+section{margin-bottom: 100px;}
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+    
+}
+.card-footer{border: none; background-color: none;}
+
+
+.card-image {
+    background-color: #F1F1F1;
+    height: 300px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 5% auto;
+    border-radius: 15px;
+
+}
+.card-image img{
+    height: 250px;
+    width: 250px;
+}
+.policies .custom-card {
+ 
+    padding: 30px 0;
+  }
+.best-seller img{height: 200px;}
+.filled-star{color: goldenrod;}
+.unfilled-star{color: gray;}
+
+@media only screen and (max-width: 768px) {
+    .policies .custom-card {
+      text-align: center;
+     
+    }
+    body{padding: 0 20px;}
+  }
+  .navbar-brand>img{height: 100%;width: 40%; text-align: right; margin-right: auto;}
