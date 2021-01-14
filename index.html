@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Commerce</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+         
+    </style>
 </head>
 
 <body>
@@ -18,15 +22,18 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="images/Logo, Icon/Logo.png" alt="" class="img-fluid"></a>
-                </div>
+                    <div class="d-flex justify-content-between">
+                        <a class="navbar-brand" href="#"><img src="images/Logo, Icon/Logo.png" alt=""
+                                class="img-fluid"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-right">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -47,13 +54,13 @@
                 </div>
             </nav>
             <div class="row pb-5 ">
-                <div class="col-md-12 col-lg-6 col-sm-12 order-sm-2 order-lg-1">
+                <div class="col-md-12 col-lg-6 col-sm-12 order-sm-2 order-lg-1 ">
                     <img src="images/Photos/Group 33092.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-md-12 col-lg-6 col-sm-12 order-sm-1 order-lg-2 d-flex align-items-center ps-5">
-                    <div class="px-5 pt-sm-5">
-                        <h1 class="header-text-2 display-3">Nike React </h1>
-                        <h1 class="header-text display-3">Infinity Run 2</h1>
+                <div class="col-md-12 col-lg-6 col-sm-12 order-sm-1 order-lg-2 d-flex align-items-center header-right">
+                    <div class=" pt-sm-5">
+                        <h1 class="header-text-2 display-4">Nike React </h1>
+                        <h1 class="header-text display-4">Infinity Run 2</h1>
                         <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
                             now</a>
@@ -62,8 +69,9 @@
             </div>
         </div>
     </header>
-    <main class="container">
-        <section class="mt-5 shoe casual-shoe">
+    <main class="">
+        <section class="mt-5 shoe casual-shoe container">
+            <div class="contianer">
             <h1 class="text-uppercase mb-5 header-text">casual shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col-md-6 col-lg-4">
@@ -74,13 +82,14 @@
                             <h5 class="card-title header-text">Nike Shoe</h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry</p>
-                        
-                        <div class=" d-flex justify-content-between align-items-center">
-                            <h2 class="shoe-price">$234</h2>
-                            <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
-                                now</a>
+
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <h2 class="shoe-price">$234</h2>
+                                <a href="" class="btn btn-primary text-uppercase"><i
+                                        class="fas fa-shopping-cart me-2"></i>buy
+                                    now</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -89,14 +98,16 @@
                                 src="images/Photos/shoe2.png" class="card-img-top " alt="..."></div>
                         <div class="card-body">
                             <h5 class="card-title header-text">Sneakers Skate Shoe</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        
-                        <div class=" d-flex justify-content-between align-items-center">
-                            <h2 class="shoe-price">$234</h2>
-                            <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
-                                now</a>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry</p>
+
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <h2 class="shoe-price">$234</h2>
+                                <a href="" class="btn btn-primary text-uppercase"><i
+                                        class="fas fa-shopping-cart me-2"></i>buy
+                                    now</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -110,15 +121,18 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between align-items-center">
                             <h2 class="shoe-price">$234</h2>
-                            <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
+                            <a href="" class="btn btn-primary text-uppercase"><i
+                                    class="fas fa-shopping-cart me-2"></i>buy
                                 now</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <section class="mt-5">
-            <h1 class="text-uppercase mb-5 header-text">formal shoes</h1>
+            <div class="container">
+            <h1 class="text-uppercase mb-5 header-text ">formal shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 custom-card">
@@ -127,13 +141,14 @@
                             <h5 class="card-title header-text">Prestige High-Cut Leather </h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry</p>
-                        
-                        <div class=" d-flex justify-content-between align-items-center">
-                            <h2 class="shoe-price">$234</h2>
-                            <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
-                                now</a>
+
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <h2 class="shoe-price">$234</h2>
+                                <a href="" class="btn btn-primary text-uppercase"><i
+                                        class="fas fa-shopping-cart me-2"></i>buy
+                                    now</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -141,14 +156,16 @@
                         <img src="images/Photos/formal2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title header-text">Slip-On Formal Shoe</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        
-                        <div class=" d-flex justify-content-between align-items-center">
-                            <h2 class="shoe-price">$234</h2>
-                            <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
-                                now</a>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry</p>
+
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <h2 class="shoe-price">$234</h2>
+                                <a href="" class="btn btn-primary text-uppercase"><i
+                                        class="fas fa-shopping-cart me-2"></i>buy
+                                    now</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -158,30 +175,33 @@
                             <h5 class="card-title header-text">Slip-On Formal Shoe </h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry</p>
-                        
-                        <div class=" d-flex justify-content-between align-items-center">
-                            <h2 class="shoe-price">$234</h2>
-                            <a href="" class="btn btn-primary text-uppercase"><i class="fas fa-shopping-cart me-2"></i>buy
-                                now</a>
+
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <h2 class="shoe-price">$234</h2>
+                                <a href="" class="btn btn-primary text-uppercase"><i
+                                        class="fas fa-shopping-cart me-2"></i>buy
+                                    now</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
-        <section class="mt-5 container policies">
+        <section class="mt-5  policies">
+            <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-5 col-sm-12 pe-md-5 order-lg-1 order-md-2 order-sm-2 order-xs-2">
                     <div class="row custom-card mb-4">
-                        <div class="col-md-12 col-lg-4 col-sm-12"> 
+                        <div class="col-md-12 col-lg-4 col-sm-12">
                             <img style="height: 80px;" src="images/Logo, Icon/image 12.png" alt="..." class="px-3">
                         </div>
                         <div class="col-md-12 col-lg-8 col-sm-12">
                             <h5 class="card-title header-text">Find the Perfect Fit</h5>
-                        <p class="card-text">Everybody is different, which is why we offer styles for every body</p>
+                            <p class="card-text">Everybody is different, which is why we offer styles for every body</p>
+                        </div>
                     </div>
-                    </div>
-                    
+
                     <div class="row custom-card mb-4 ">
                         <div class="col-md-12 col-lg-4 col-sm-12 ">
                             <img style="height: 80px;" src="images/Logo, Icon/image 13.png" alt="..." class="px-3">
@@ -197,7 +217,8 @@
                         </div>
                         <div class="col-md-12 col-lg-8 col-sm-12">
                             <h5 class="card-title header-text">Contact Our Seller</h5>
-                            <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                            <p class="card-text">They are here to help you. That's quite literally what we pay them for.
+                            </p>
                         </div>
                     </div>
 
@@ -205,18 +226,21 @@
 
 
                 </div>
-                
-                <div class="col-md-12 col-lg-7 col-sm-12 d-flex  align-items-center ps-md-5 mb-5 order-lg-2 order-md-1 order-sm-1 order-xs-1 mb-md-5 ">
+
+                <div
+                    class="col-md-12 col-lg-7 col-sm-12 d-flex  align-items-center ps-md-5 mb-5 order-lg-2 order-md-1 order-sm-1 order-xs-1 ">
                     <img src="images/Logo, Icon/XMLID 1.png" alt="" class="img-fluid">
                 </div>
-            </div> 
+            </div>
+        </div>
         </section>
 
-        <section>
-            <h1 class="text-uppercase">best Seller</h1>
-            
-                
-            <div class="row best-seller">
+        <section class="best-seller">
+            <div class="container">
+            <h1 class="text-uppercase align-sm-center">best Seller</h1>
+
+
+            <div class="row ">
                 <div class="col-md-4 col-lg-3 col-sm-6">
                     <img src="images/Photos/shoe1.png" alt="" class="img-fluid">
                     <h5 class="shoe-price">$234</h5>
@@ -232,7 +256,7 @@
                         (3.5)
                     </p>
                 </div>
-                
+
                 <div class="col-md-4 col-lg-3 col-sm-6">
                     <img src="images/Photos/formal1.png" alt="" class="img-fluid">
                     <h5 class="shoe-price">$234</h5>
@@ -248,7 +272,7 @@
                         (4)
                     </p>
                 </div>
-                
+
                 <div class="col-md-4 col-lg-3 col-sm-6">
                     <img src="images/Photos/shoe3.png" alt="" class="img-fluid">
                     <h5 class="shoe-price">$234</h5>
@@ -261,11 +285,11 @@
                         <i class="fas fa-star filled-star"></i>
                         <i class="fas fa-star filled-star"></i>
                         <i class="fas fa-star filled-star"></i>
-                        
+
                         (5)
                     </p>
                 </div>
-                
+
                 <div class="col-md-4 col-lg-3 col-sm-6">
                     <img src="images/Photos/formal2.png" alt="" class="img-fluid">
                     <h5 class="shoe-price">$234</h5>
@@ -281,13 +305,44 @@
                         (4.5)
                     </p>
                 </div>
-                
-                
+
+
             </div>
+        </div>
         </section>
 
     </main>
-
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/Logo, Icon/Logo.png" alt="" class="img-fluid mb-3">
+                    <div class="ps-5">
+                        <p class="my-0">Gulsan-1, Navana Mor</p>
+                        <p class="my-0">Dhaka-1200</p>
+                        <p class="my-0">Email: penguin@penguin.com</p>
+                        <p class="my-0">Mobile: +88089585</p>
+                    </div>
+                </div>
+                <<div class="col-lg-3">
+                <ul class="list-unstyled">
+                    <li class="list-item"><a class="btn" href="">About Us</a></li>
+                    <li class="list-item"><a class="btn" href="">Careers</a></li>
+                    <li class="list-item"><a class="btn" href="">Awards & Recognition</a></li>
+                    <li class="list-item"><a class="btn" href="">Financial Info</a></li>
+                    <li class="list-item"><a class="btn" href="">Share Department</a></li>
+                </ul>
+            </div> 
+                <div class="col-lg-8">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1rAwoJCZp73D-JMueO9CjmjxF4GM" width="100%"
+                        height="200px"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <p class="text-center">all right reserve penguin</p>
+        </div>
+    </footer> -->
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.min.js"></script>
