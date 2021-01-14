@@ -108,11 +108,16 @@ main {
         padding: 0 20px;
     }
 
-    section>h1 {
+    main h1 {
         text-align: center;
+        
     }
 
     .header-right {
         padding-left: 0px;
+    }
+    .best-seller img {
+        display: block;
+        margin: auto;
     }
 }
